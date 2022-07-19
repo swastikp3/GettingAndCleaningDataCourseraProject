@@ -20,8 +20,8 @@ File with R code "run_analysis.R" perform above 5 following steps as mentioned i
 
 
 ## Information about variables used :   
-* `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
+* `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` , features, activities contain the data from the downloaded files.
 
-* `x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
+* `XMergedDataset`, `YMergedDataset` ,  `SubjectMergedDataset` and `MergedData` merge the previous datasets to further analysis.
 
-* `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in
+* `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in TidyData & ResultData
